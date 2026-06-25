@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Onboarding Milestone Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Employee Onboarding Tracker</h1>
+
+    <div class="employee-info">
+        <input type="text" id="employeeName" placeholder="Enter Employee Name">
+        <button onclick="startTracking()">Start Tracking</button>
+    </div>
+
+    <div id="trackerSection" class="hidden">
+
+        <h2 id="welcomeText"></h2>
+
+        <div class="progress-container">
+            <div id="progressBar"></div>
+        </div>
+
+        <p id="progressText">0% Completed</p>
+
+        <div class="checklist">
+
+            <label>
+                <input type="checkbox" class="task">
+                Offer Letter Accepted
+            </label>
+
+            <label>
+                <input type="checkbox" class="task">
+                HR Documentation Completed
+            </label>
+
+            <label>
+                <input type="checkbox" class="task">
+                IT Equipment Assigned
+            </label>
+
+            <label>
+                <input type="checkbox" class="task">
+                Email Account Created
+            </label>
+
+            <label>
+                <input type="checkbox" class="task">
+                Team Introduction
+            </label>
+
+            <label>
+                <input type="checkbox" class="task">
+                Training Completed
+            </label>
+
+            <label>
+                <input type="checkbox" class="task">
+                First Project Assigned
+            </label>
+
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
